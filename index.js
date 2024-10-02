@@ -22,7 +22,7 @@ const PORT = 3001;
  * @param {Object} req - Express request object (not used in this route).
  * @param {Object} res - Express response object to return the generated lead.
  */
-app.post("/leads", async (req, res) => {
+app.get("/leads", async (req, res) => {
     try {
         // Generate lead using OpenAI chatCompletion function
         const lead = await chatCompletion(
