@@ -15,7 +15,7 @@ const PORT = 3001;
 /**
  * @async
  * @function
- * @description Route handler for POST requests to the /leads endpoint.
+ * @description Route handler for GET requests to the /leads endpoint.
  * This endpoint uses the OpenAI API to generate a lead based on
  * system and user prompts, including user profile and favourites data.
  *
