@@ -16,7 +16,7 @@ const openai = new OpenAI({ apiKey: OPENAI_API_KEY });
 // Default option which we used for config chat completions from openAI API
 // The list of all available parameters can be found at https://platform.openai.com/docs/api-reference/chat/create
 const DEFAULTS = {
-    model: "gpt-4",
+    model: "gpt-4o",
     // What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random,
     // while lower values like 0.2 will make it more focused and deterministic.
     // More information can be found at https://platform.openai.com/docs/api-reference/chat/create#chat-create-temperature
